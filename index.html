@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" > 
+<h1 id="main">Editable Resume Builder</h1>
+   
+<br>
+
+<h2  id="picture">Profile Image</h2>
+<!-- <img src="image.png" alt="profile-image" height="200" width="200"> -->
+            <br>
+                 <input type="file" name="pic" id="pic" accept="image/*">
+                 <br>
+                 <br>
+<form action="">
+    <input type="text" id="name" name="name" required placeholder="Name">
+    <input type="text" id="email" name="email" required placeholder="Email">
+    <input type="text" id="phone" name="phone" required placeholder="Phone">
+</form>
+<br>
+<h1 id="Experience">EXPERIENCE</h1>
+<form action="">
+    <input type="text" id="company" name="comapny" required placeholder="Company">
+</form>
+<br>
+<form action="">
+    
+    <textarea name="comapny" id="companydescription" ? placeholder="Company Description (Optional)" rows="3" ></textarea>
+
+</form>
+<br>
+<h1 id="Experience">EDUCATION</h1>
+<form action="">
+ 
+    <textarea name="education" id="Education" rows="4" required placeholder="Education"></textarea>
+</form>
+<br>
+<h1 id="skills">SKILLS</h1>
+<form action="">
+ 
+    <textarea name="skills" id="Skills" rows="4" required placeholder="Skills"></textarea>
+</form>
+<button id="button">Generate</button>
+
+<div id="output">
+    <div id="output-resume"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+h1{
+    color: #DCA47C;
+    font-size: 35px;
+    padding-left: 30px;font-weight: 400;
+    
+    
+    }
+    #name{
+        width: 100px;
+    border-color:white;
+    padding-left: 30px;
+    border-style: hidden;
+    
+    }
+
+    h2{
+        color: #DCA47C;
+        padding-left: 30px;
+        font-weight: 400;
+    }
+    #email{
+        gap: 10px;
+        width: 160px;
+        border-color: white;
+        border-style: hidden
+        
+    }
+    #phone{
+        gap: 10px;
+        width: 100px;
+        border-color: white;
+        border-style: hidden
+        
+    }
+     
+    #Experience{
+        color: #DCA47C;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    #company{
+        border-style: hidden;
+        padding-left: 30px;
+    }
+    #companydescription{
+        border-style: hidden;
+        padding-left: 30px;
+    }
+    #education{
+        color: #DCA47C;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    #Education{
+        border-style: hidden;
+        padding-left: 30px;
+    }
+    #skills{
+        padding-left:30px ;
+    font-size: 20px;
+    }
+    #Skills{
+        border-style: hidden;
+        padding-left:30px;
+    }
+    button{
+        background-color: #DCA47C;
+        border-radius: 10px;
+        border-style: hidden;
+        width: 80px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    button:hover{
+        background-color: #d8aa8e;
+
+    }
+#output-resume h2{
+    color:#DCA47C;
+text-align: center;
+font-weight:400;
+}
+#output-resume h3{
+    color:#DCA47C;
+    text-align: center;
+    font-weight:400;
+}
+#output-resume{
+    text-align: center;
+  background-color:#ebd6c9;
+}
